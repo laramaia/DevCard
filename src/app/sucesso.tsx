@@ -9,7 +9,7 @@ export default function SucessoScreen(){
                 <View style={styles.container}>
                     <View style={styles.headerContainer}>
 
-                        <Text style={styles.subtitle}>Seu cartão de visita digital de dev mobile</Text>
+                        <Text style={styles.subtitle}>Cartão Dev criado com sucesso</Text>
                     </View>
     
                     <Button variant="primary" label="Criar outro cartão" />
