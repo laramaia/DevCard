@@ -4,7 +4,7 @@ import { SafeAreaView } from "react-native-safe-area-context";
 import { useState } from 'react';
 import { useRouter } from 'expo-router';
 import { useCard } from '../app/context/CardContext';
-import { Button } from '../components/Buttons';
+import { Button } from '../components/Button';
 
 export default function CadastroScreen() {
   const router = useRouter();

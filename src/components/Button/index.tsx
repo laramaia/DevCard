@@ -6,6 +6,7 @@ type Props = {
     variant?: "primary" | "secondary" | "outline"
     onPress?: (event: GestureResponderEvent) => void
 }
+
 export function Button({ label, variant="primary", onPress}: Props) {
     return(
         <TouchableOpacity onPress={onPress} style={styles[variant].buttonContainer}>

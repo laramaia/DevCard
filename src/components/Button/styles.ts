@@ -29,8 +29,21 @@ export const styleSecondary = StyleSheet.create({
     },
 });
 
+export const styleOutline = StyleSheet.create({
+    buttonContainer: {
+        ...stylePrimary.buttonContainer,
+        backgroundColor: "transparent",
+        borderColor: THEME.colors.primary,
+        borderWidth: 2
+    },
+    buttonText: {
+        ...stylePrimary.buttonText,
+        color: THEME.colors.primary
+    },
+});
+
 export const styles = {
     primary: stylePrimary,
     secondary: styleSecondary,
-    outline: stylePrimary
+    outline: styleOutline
 } as const;
