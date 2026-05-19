@@ -7,6 +7,7 @@ type Props = {
     company?: string;
     specialty: string;
     experience: string;
+    color: string;
 }
 
 export function Card({
@@ -15,6 +16,7 @@ export function Card({
     company,
     specialty,
     experience,
+    color
 }: Props) {
 
     const inicial = name.trim().charAt(0).toUpperCase();
@@ -22,7 +24,10 @@ export function Card({
     const nivel = buscarNivel(Number(experience));
 
     return (
-        <View style={styles.cardContainer}>
+        <View
+    style={[
+        styles.cardContainer,
+        { backgroundColor: color }]}>
             <View style={styles.brilhoMaior} />
             <View style={styles.brilhoMenor} />
 

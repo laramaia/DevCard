@@ -17,6 +17,7 @@ export default function Preview() {
         company,
         specialty,
         experience,
+        color
     } = cardData;
 
     const temDados =
@@ -68,6 +69,7 @@ export default function Preview() {
                 company={company}
                 specialty={specialty}
                 experience={experience}
+                color={color}
             />
 
             <View style={styles.acoes}>

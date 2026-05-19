@@ -3,7 +3,6 @@ import { THEME } from "../../styles/constants";
 
 export const styles = StyleSheet.create({
     cardContainer: {
-        backgroundColor: THEME.colors.primary,
         borderRadius: 24,
         padding: 28,
         alignItems: "center",

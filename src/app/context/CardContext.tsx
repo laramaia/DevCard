@@ -6,6 +6,7 @@ type CardData = {
   company: string;
   specialty: string;
   experience: string;
+  color: string;
 };
 
 type CardContextType = {
